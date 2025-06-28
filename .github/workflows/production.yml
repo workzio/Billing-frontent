@@ -1,17 +1,17 @@
 name: Production
 on:
   push:
-    branches: [ production ]
+    branches: [ main ]
 
 jobs:
   build:
-    runs-on: ideaux-pro
+    runs-on: workzio
     
     steps:
       - name: Clone Repository
         uses: actions/checkout@v3
         with:
-          path: "pro"
+          path: "main"
           
       - name: Install Packages & Setup
         run: |
