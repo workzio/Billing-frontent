@@ -1,8 +1,7 @@
 name: Production
 on:
   push:
-    branches: [ main ]
-
+       branches: [ main ]
 jobs:
   build:
     runs-on: workzio
