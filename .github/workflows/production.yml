@@ -13,4 +13,4 @@ jobs:
           
       - name: Restart Services
         run: |
-         service nginx restart
+         sudo service nginx restart
