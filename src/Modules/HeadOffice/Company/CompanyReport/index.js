@@ -6,7 +6,7 @@ import { TopTitle } from '../../../../Components/Form/TopTitle'
 export const CompanyReport = () => {
   return (
     <Fragment>
-      <TopTitle Heading={'OutSource Company Report'} />
+      <TopTitle Heading={'OutSource Distributor Report'} />
 
       <TopSection />
     </Fragment>

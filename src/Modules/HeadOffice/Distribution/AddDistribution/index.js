@@ -6,7 +6,7 @@ import { TopTitle } from '../../../../Components/Form/TopTitle'
 const AddDistribution = ({setUpdateDistribute}) => {
   return (
     <div>
-      <TopTitle Heading={'Add Distributor'} /> 
+      <TopTitle Heading={'Add Customer'} /> 
       <CustomCardView width={'800px'}>
         <AddDistributionForm setUpdateDistribute={setUpdateDistribute}  />
       </CustomCardView>

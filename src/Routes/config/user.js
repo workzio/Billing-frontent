@@ -91,11 +91,11 @@ export const adminAuthenticated = [
     Component: ViewAttendance,
   },
   {
-    routePath: 'headoffice_distributor_report/',
+    routePath: 'headoffice_customer_report/',
     Component: DistributorReport,
   },
   {
-    routePath: 'headoffice_company_report/',
+    routePath: 'headoffice_distributor_report/',
     Component: CompanyReport,
   },
   {
@@ -150,7 +150,7 @@ export const adminAuthenticated = [
     Component: ViewProfile,
   },
   {
-    routePath: 'headoffice_compy_outsource/',
+    routePath: 'headoffice_distributor_outsource/',
     Component: CmpyOutsource,
   },
   {
@@ -170,7 +170,7 @@ export const adminAuthenticated = [
     Component: DistributTable,
   },
   {
-    routePath: 'headoffice_distributionadmin/',
+    routePath: 'headoffice_customeradmin/',
     Component: AddDistribution,
   },
   {

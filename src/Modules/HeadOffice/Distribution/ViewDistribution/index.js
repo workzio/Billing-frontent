@@ -6,7 +6,7 @@ import DistributTables from './Partials/DistTable'
 const DistributTable = ({getDistribute,setDistribute}) => {
   return (
     <div>
-        <TopTitle Heading={'View Distributor'}/>
+        <TopTitle Heading={'View Customer'}/>
         <DistributTables getDistribute={getDistribute} setDistribute={setDistribute}/>
         <ToastContainer/>
     </div>

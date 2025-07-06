@@ -147,7 +147,7 @@ const Topdistn = () => {
           onFinishFailed={onFinishFailed}
           autoComplete="off">
 
-          <ReportTitle>Search Distributor Here</ReportTitle>
+          <ReportTitle>Search Customer Here</ReportTitle>
 
           <Row gutter={[24, 24]}>
             <Col span={24} md={6}>
