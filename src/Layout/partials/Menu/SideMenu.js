@@ -89,30 +89,16 @@ const SideMenu = () => {
             getItem('Add Product', 'headoffice_add_product'),
             getItem('View Product', 'headoffice_view_product'),
         ]),
-    
-<<<<<<< HEAD
-        getItem('Company Outsource', 'sub3', <FileProtectOutlined />, [
-            getItem('Add Company', 'headoffice_compy_outsource'),
-            getItem('View Company', 'headoffice_outsourceview'),
-            getItem('Company Report', 'headoffice_company_report'),
-        ]),
-    
-        getItem('Distributor', 'sub4', <FaUserFriends />, [
-            getItem('Add Distributor', 'headoffice_distributionadmin'),
-            getItem('View Distributor', 'headoffice_distritale'),
-            getItem('Distributor Report', 'headoffice_distributor_report'),
-=======
+
         getItem('Distributor Outsource', 'sub3', <FileProtectOutlined />, [
             getItem('Add Distributor', 'headoffice_distributor_outsource'),
             getItem('View Distributor', 'headoffice_outsourceview'),
             getItem('Distributor Report', 'headoffice_distributor_report'),
-        ]),
-    
+        ]),   
         getItem('Customer', 'sub4', <FaUserFriends />, [
             getItem('Add Customer', 'headoffice_customeradmin'),
             getItem('View Customer', 'headoffice_distritale'),
             getItem('Customer Report', 'headoffice_customer_report'),
->>>>>>> c2084415200b4927070204d83a4aeb64c0a89595
         ]),
 
         getItem('Members', 'sub11', <FaUsers />, [
@@ -132,11 +118,8 @@ const SideMenu = () => {
 
         ]),
     
-<<<<<<< HEAD
-        getItem(' Purchase', 'sub5', <BiPurchaseTag />, [
-=======
+
         getItem('Purchase', 'sub5', <BiPurchaseTag />, [
->>>>>>> c2084415200b4927070204d83a4aeb64c0a89595
             getItem('Add Purchase', 'add_headoffice_purchase'),
             getItem('View Purchase', 'headoffice_purchase_view'),
         ]),
