@@ -147,7 +147,11 @@ const Topdistn = () => {
           onFinishFailed={onFinishFailed}
           autoComplete="off">
 
+<<<<<<< HEAD
           <ReportTitle>Search Distributor Here</ReportTitle>
+=======
+          <ReportTitle>Search Customer Here</ReportTitle>
+>>>>>>> c2084415200b4927070204d83a4aeb64c0a89595
 
           <Row gutter={[24, 24]}>
             <Col span={24} md={6}>

@@ -1,18 +1,31 @@
 name: Production
 on:
   push:
+<<<<<<< HEAD
     branches: [ main ]
 
 jobs:
   build:
     runs-on: worizio
     
+=======
+       branches: [ main ]
+jobs:
+  build:
+    runs-on: workzio
+>>>>>>> c2084415200b4927070204d83a4aeb64c0a89595
     steps:
       - name: Clone Repository
         uses: actions/checkout@v3
         with:
+<<<<<<< HEAD
           path: "main"
           
       - name: Install Packages & Setup
+=======
+          path: "main"  
+          
+      - name: Restart Services
+>>>>>>> c2084415200b4927070204d83a4aeb64c0a89595
         run: |
          sudo service nginx restart

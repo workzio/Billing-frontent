@@ -91,11 +91,19 @@ export const adminAuthenticated = [
     Component: ViewAttendance,
   },
   {
+<<<<<<< HEAD
     routePath: 'headoffice_distributor_report/',
     Component: DistributorReport,
   },
   {
     routePath: 'headoffice_company_report/',
+=======
+    routePath: 'headoffice_customer_report/',
+    Component: DistributorReport,
+  },
+  {
+    routePath: 'headoffice_distributor_report/',
+>>>>>>> c2084415200b4927070204d83a4aeb64c0a89595
     Component: CompanyReport,
   },
   {
@@ -150,7 +158,11 @@ export const adminAuthenticated = [
     Component: ViewProfile,
   },
   {
+<<<<<<< HEAD
     routePath: 'headoffice_compy_outsource/',
+=======
+    routePath: 'headoffice_distributor_outsource/',
+>>>>>>> c2084415200b4927070204d83a4aeb64c0a89595
     Component: CmpyOutsource,
   },
   {
@@ -170,7 +182,11 @@ export const adminAuthenticated = [
     Component: DistributTable,
   },
   {
+<<<<<<< HEAD
     routePath: 'headoffice_distributionadmin/',
+=======
+    routePath: 'headoffice_customeradmin/',
+>>>>>>> c2084415200b4927070204d83a4aeb64c0a89595
     Component: AddDistribution,
   },
   {
