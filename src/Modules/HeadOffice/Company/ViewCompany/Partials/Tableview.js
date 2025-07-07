@@ -196,11 +196,8 @@ const CmpSourceTable = ({ getCompany, setCompany }) => {
 
     return (
         <div>
-<<<<<<< HEAD
-            <TopTitle Heading={'View Outsource Company'} />
-=======
+
             <TopTitle Heading={'View Outsource Distributor'} />
->>>>>>> c2084415200b4927070204d83a4aeb64c0a89595
             {
                 dataSource.length !== 0 ? (
                     <div>
